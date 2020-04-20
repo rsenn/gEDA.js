@@ -1,0 +1,28 @@
+{
+  "name": "geda",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "gEDA.js ===============",
+  "main": "gEDA-old.js",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthiasbock/gEDA.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthiasbock/gEDA.js/issues"
+  },
+  "homepage": "https://github.com/matthiasbock/gEDA.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
