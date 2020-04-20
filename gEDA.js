@@ -8,10 +8,10 @@ notDefined = 'undefined';
  * http://www.w3.org/TR/custom-elements/
  * http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
  */
-geda_project = document.registerElement('geda-project');
-geda_library = document.registerElement('geda-library');
-geda_component = document.registerElement('geda-component');
-geda_schematic = document.registerElement('geda-schematic');
+geda_project = customElements.define('geda-project',class GedaProject extends HTMLElement  {});
+geda_library = customElements.define('geda-library',class GedaLibrary extends HTMLElement  {});
+geda_component = customElements.define('geda-component',class GedaComponent extends HTMLElement  {});
+geda_schematic = customElements.define('geda-schematic',class GedaSchematic extends HTMLElement  {});
 
 /*
  * Resolve dependencies
